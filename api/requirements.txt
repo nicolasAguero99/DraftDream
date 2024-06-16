@@ -1,4 +1,4 @@
 fastapi
-dotenv
-socketio
+python-socketio
 uvicorn
+python-dotenv
