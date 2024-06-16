@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 // Commponents
 import Nav from '@/components/nav'
 
-function Home (): JSX.Element {
+function Page (): JSX.Element {
   const router = useRouter()
   const randomIdRoom = crypto.randomUUID()
 
@@ -19,4 +19,4 @@ function Home (): JSX.Element {
   )
 }
 
-export default Home
+export default Page
